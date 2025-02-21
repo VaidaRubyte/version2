@@ -12,7 +12,8 @@ pc.script.createLoadingScreen(function (app) {
         splash.style.display = 'none';
 
         var logo = document.createElement('img');
-        logo.src = ASSET_PREFIX + 'logo.png';
+        //logo.src = ASSET_PREFIX + 'logo.png';
+        logo.src = 'https://pages.openbrolly.com/wp-content/uploads/2024/03/Openbrolly_logo_wordmark_white-300.png';
         splash.appendChild(logo);
         logo.onload = function () {
             splash.style.display = 'block';
